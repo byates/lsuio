@@ -1,0 +1,25 @@
+lsuio -- utility to list UIO devices
+---------------------------------------------------
+
+This repository is a copy of Stephan Linz version but setup to
+build with Eclipse as a cross compile for ARM.
+
+Copyright (C) 2007 Hans J. Koch
+Copyright (C) 2010 Stephan Linz
+
+
+libuio is a light-wight C programming library to handle UIO device
+discovery and binding task. The library is based on the UIO example
+code lsuio v0.2.0 written by Hans J. Koch <hjk@linutronix.de>. Hans
+J. Koch maintains UIO in the Linux kernel.
+
+
+For more infomration use the links:
+http://www.osadl.org/UIO.uio.0.html
+http://www.osadl.org/UIO.uio0.0.html
+http://www.osadl.org/projects/downloads/UIO
+http://lwn.net/Articles/232575/
+
+
+Comments are welcome.
+Stephan Linz <linz@li-pro.net>
