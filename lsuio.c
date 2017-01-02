@@ -18,6 +18,7 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdint.h>
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/types.h>
@@ -128,7 +129,7 @@ static int show_map(struct uio_info_t *info, int map_num)
                 printf("N/A");
                 break;
             case UIO_MMAP_OK:
-                printf("OK");
+                printf("OK [0x08%X]", (uint32_t)info->maps[map_num].internal_addr);
                 break;
             default:
                 printf("FAILED");
